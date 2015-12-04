@@ -1,6 +1,12 @@
 <img src='https://raw.githubusercontent.com/pedro-ramirez-suarez/rawtemplate/master/rawlogo1.png' style='heigth:200px'/> 
 ## Contoso University sample build with RAW  framework
 
+## Running the application.
+The first time you run the application the database structure will be created, you need to create the database and modify the web.config file accordingly.
+
+## Original idea.
+The original contoso university application is a sample app and tutorial from Microsoft, the tutorial is located <a href="https://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application" target="_blank">here</a>
+
 ### Approach
 
 The RAW framework was developed with the Database First approach in mind, we encourage a good and clean design of the database, we think that the code first approach is good for quick creation of prototypes but not well suited for existing applications, applications that require complex schemas and most important, code first approach wastes DB computational power and features.  
