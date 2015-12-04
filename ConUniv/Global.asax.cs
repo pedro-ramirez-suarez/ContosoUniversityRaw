@@ -23,6 +23,9 @@ namespace ConUniv
 
             HttpConfiguration config = GlobalConfiguration.Configuration;
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+
+            //Migrations to recreate the database if needed
+            Needletail.DataAccess.Migrations.Migrator.Migrate("Default", Server.MapPath("~"));
         }
     }
 }

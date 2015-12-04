@@ -185,5 +185,11 @@ namespace ConUniv.DataAccess.Repositories
         {
             return this.ExecuteStoredProcedureReturnRows<T>(name, parameters);
         }
+
+
+        public IEnumerable<DynamicEntity> ExecuteStoredProcedureReturnDynaimcRows(string name, object parameters)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
