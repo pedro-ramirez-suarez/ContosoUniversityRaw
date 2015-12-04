@@ -1,5 +1,5 @@
 <img src='https://raw.githubusercontent.com/pedro-ramirez-suarez/rawtemplate/master/rawlogo1.png' style='heigth:200px'/> 
-## Contoso University sample build with RAW  framework
+## Contoso University sample application built with RAW  framework
 
 ## Running the application.
 The first time you run the application the database structure will be created, you need to create the database and modify the web.config file accordingly.
