@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><model><entity name="CourseInstructor" namespace="ConUniv.Models" primaryKeyType="Guid"><fields><Id validator="notEmpty"><Validator /></Id><CourseID validator="notEmpty"><Validator /></CourseID><InstructorID validator="notEmpty"><Validator /></InstructorID></fields></entity></model>
