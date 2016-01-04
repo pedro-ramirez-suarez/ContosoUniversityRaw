@@ -27,5 +27,12 @@ namespace ConUniv.ViewModels
             if (this.Instructor.Id == Guid.Empty)
                 this.Instructor.HireDate = DateTime.Now;
         }
+
+        public override void Save(string connectionString = "")
+        {
+            if (Office == null || Office.Id == Guid.Empty || Office.InstructorID == Guid.Empty)
+                Office = new OfficeAssignment {  Id = Guid.NewGuid (), InstructorID = Instructor.Id };
+            base.Save(connectionString);
+        }
     }
 }
